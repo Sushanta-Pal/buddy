@@ -1,0 +1,70 @@
+.chat-ui {
+    font-family: Arial, sans-serif;
+    padding: 90px;
+    background: linear-gradient(to right, #fff, #e0e0e0);
+    border-radius: 10px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 3em;
+    margin-right: 10px;
+  }
+  
+  .ui-kit {
+    font-size: 1.5em;
+    color: #ff69b4;
+  }
+  
+  .buttons {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .buttons .btn {
+    margin-left: 10px;
+  }
+  
+  .avatars {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .chat-messages {
+    margin-top: 20px;
+  }
+  
+  .message {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .message-header {
+    font-weight: bold;
+  }
+  
+  .message-header span {
+    color: gray;
+    font-size: 0.9em;
+    margin-left: 5px;
+  }
+  
+  .message-content {
+    margin-top: 5px;
+  }
+  
